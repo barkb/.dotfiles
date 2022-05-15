@@ -36,6 +36,14 @@ Plug 'easymotion/vim-easymotion'
 
 " CoC
 Plug 'neoclide/coc.nvim'
+" COC extenstions to install
+" coc-explorer
+" coc-json
+" coc-julia
+" coc-rls
+" coc-sourcekit
+" coc-tsserver
+" coc-vimlsp
 
 call plug#end()
 

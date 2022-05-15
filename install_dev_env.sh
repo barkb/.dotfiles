@@ -7,7 +7,7 @@ nix-env -iA \
     nixpkgs.zsh \
     nixpkgs.antibody \
     nixpkgs.git \
-    nixpkgs.vim \
+    nixpkgs.nvim \
     nixpkgs.stow \
     nixpkgs.fzf \
     nixpkgs.ripgrep \
@@ -21,6 +21,7 @@ nix-env -iA \
 stow git
 stow zsh
 stow vim
+stow nvim
 
 command -v zsh | sudo tee -a /etc/shells
 
