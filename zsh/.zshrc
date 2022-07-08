@@ -1,8 +1,7 @@
 autoload -Uz compinit
 compinit
 # use nix
-if [ -e ~/.nix-profile/etc/profile.d/nix.sh ]; then . ~/.nix-profile/etc/profile.d/nix.sh; fi
-
+if [ -e ~/.nix-profile/nix.sh ]; then . ~/.nix-profile/nix.sh; fi
 # Source antibody
 source ~/.zsh_plugins.sh
 

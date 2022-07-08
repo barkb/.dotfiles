@@ -6,3 +6,4 @@ ohmyzsh/ohmyzsh path:plugins/git-extras
 spaceship-prompt/spaceship-prompt
 
 zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
