@@ -1,5 +1,5 @@
 # Install nix
-curl -L https://nix.org/nix/install | sh
+sh <(curl -L https://nixos.org/nix/install) --no-daemon 
 # source nix
 . ~/.nix-profile/etc/profile.d/nix.sh
 # install packages
@@ -7,7 +7,7 @@ nix-env -iA \
     nixpkgs.zsh \
     nixpkgs.antibody \
     nixpkgs.git \
-    nixpkgs.nvim \
+    nixpkgs.neovim \
     nixpkgs.stow \
     nixpkgs.fzf \
     nixpkgs.ripgrep \

@@ -11,7 +11,13 @@ set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set noswapfile
+set nobackup
+set undodir=~/.vim/undodir
+set undofile
+set scrolloff=8
+set signcolumn=yes
 set incsearch
+
 
 "===General Mappings
 let mapleader = ' '
@@ -41,7 +47,6 @@ Plug 'easymotion/vim-easymotion'
 " CoC
 Plug 'neoclide/coc.nvim'
 " COC extenstions to install
-" coc-explorer
 " coc-json
 " coc-julia
 " coc-rls
@@ -51,6 +56,8 @@ Plug 'neoclide/coc.nvim'
 
 Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 
+"Vim Transparent
+Plug 'xiyaowong/nvim-transparent'
 call plug#end()
 
 "Theming config
@@ -58,6 +65,7 @@ colorscheme molokai
 set termguicolors
 hi LineNr ctermbg=NONE guibg=NONE
 
+"Set transparency
 let g:transparent_enabled = v:true
 
 "===VimWiki Config

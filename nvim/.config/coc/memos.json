@@ -1,0 +1,8 @@
+{
+  "@yaegassy/coc-volar|/home/barkb/dev/BabyNameGenerator": {
+    "coc-volar-ts-server-path": "/home/barkb/.dotfiles/nvim/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  },
+  "@yaegassy/coc-volar|/home/barkb/dev/site": {
+    "coc-volar-ts-server-path": "/home/barkb/.dotfiles/nvim/.config/coc/extensions/node_modules/@yaegassy/coc-volar/node_modules/typescript/lib/tsserverlibrary.js"
+  }
+}
