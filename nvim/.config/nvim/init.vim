@@ -54,8 +54,7 @@ Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
 call plug#end()
 
 "Theming config
-colorscheme space-vim-dark 
-set background=dark
+colorscheme molokai 
 set termguicolors
 hi LineNr ctermbg=NONE guibg=NONE
 
@@ -72,6 +71,9 @@ let g:markdown_folding=1
 
 " Ranger config
 let g:rnvimr_enable_ex = 1
+let g:rnvimr_border_attr = {'fg': 1, 'bg': -1}
+let g:rnvimr_enable_picker = 1
+highlight link RnvimrNormal CursorLine
 nmap <leader>o :RnvimrToggle<CR>
 
 "config for MacVim

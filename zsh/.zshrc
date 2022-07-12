@@ -5,6 +5,10 @@ if [ -e ~/.nix-profile/nix.sh ]; then . ~/.nix-profile/nix.sh; fi
 # Source antibody
 source ~/.zsh_plugins.sh
 
+# Set Visual and Editor Envinroments
+export EDITOR='nvim'
+export VISUAL='nvim'
+
 ### General Aliases
 alias cman='colored man'
 alias sl='subl'
